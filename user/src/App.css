@@ -1,0 +1,78 @@
+.box
+{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  width: 50%;
+
+}
+.login1
+{
+  width: 48%;
+  border-radius: 20px;
+}
+.login
+{
+  width: 45%;
+  border-radius: 20px;
+}
+.logout
+{
+  width: 10%;
+  border-radius: 20px;
+  position: relative;
+  left: 87%;
+  top: -60px;
+  margin-bottom: 20px;
+}
+.signup
+{
+  width: 45%;
+  border-radius: 20px;
+}
+.img{
+  position: absolute;
+  width: 15%;
+}
+
+body{
+  /* background-image: url("bg2.jpg");
+  background-repeat:no-repeat;
+  background-size: cover; */
+  background: linear-gradient(to right, #e6a9f8 ,#9fc3f7);
+}
+
+.navbar{
+  display: inline-block;
+  font-family: "arial";
+  font-size: 24px;
+}
+.head {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 6s;
+  /* animation-timing-function: 2; */
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.navbar h1{
+  background: linear-gradient(180deg, #e6a9f8 ,#9fc3f7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30% }
+}
+
+.firstpage{
+  background: linear-gradient(180deg, #e6a9f8 ,#9fc3f7);
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  width: 70%;
+}
